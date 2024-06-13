@@ -11,6 +11,8 @@ tool link |functionality | last update | language | tutorial/documentation
 [dbdreader](https://github.com/smerckel/dbdreader) |Extract data from slocum binary files | 2023 | python | [docs site](https://dbdreader.readthedocs.io/en/latest/)
 [pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum and seaexplorer into netcdf | 2024 | python | [docs site](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf](https://pyglider.readthedocs.io/en/latest/))
 [SOCIB glider toolbox](https://github.com/socib/glider_toolbox) |Process slocum, seaglider and seaxplorer data | 2018 | matlab | [manual](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf)
+[ATOMIX shear](https://github.com/SCOR-ATOMIX/ShearProbes_BenchmarkComparison) | Benchmark shear probe data | 2023 | matlab | [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11109154/)
+
 
 
 ### Quality Control
