@@ -33,6 +33,14 @@ tool link |functionality | last update | Tutorial/documentation
 [OceanGliders format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) | Standard format for glider data | 2024 | [format specification](https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html)
 [Oxygen SOP](https://github.com/OceanGlidersCommunity/Oxygen_SOP) | Best Practices SOP for oxygen | 2022 | [SOP document](https://oceangliderscommunity.github.io/Oxygen_SOP/README.html)
 
+
+### Tutorials/Demos
+
+Link to resource |functionality | last update | language
+--- | --- | --- | ---
+[IOOS notebook gallery](https://ioos.github.io/ioos_code_lab/content/code_gallery/gallery.html) |IOOS example notebooks with ocean data inc. gliders| 2024 | python 
+
+
 ### References
 
 This list was inspired by conversations at the Inernational Underwater Gliders Conference in Gothenburg, Sweden, 2024
