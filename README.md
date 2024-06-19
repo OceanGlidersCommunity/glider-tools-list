@@ -11,6 +11,8 @@ tool link |functionality | last update | language | tutorial/documentation
 [dbdreader](https://github.com/smerckel/dbdreader) |Extract data from slocum binary files | 2023 | python | [docs site](https://dbdreader.readthedocs.io/en/latest/)
 [pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum and seaexplorer into netcdf | 2024 | python | [docs site](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf](https://pyglider.readthedocs.io/en/latest/))
 [SOCIB glider toolbox](https://github.com/socib/glider_toolbox) |Process slocum, seaglider and seaxplorer data | 2018 | matlab | [manual](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf)
+[EGO glider processing](https://www.seanoe.org/data/00343/45402/) |Process slocum, seaglider and seaxplorer data | 2023 | matlab | -
+[GLIDERSCOPE](https://imos.org.au/gliderscope) |Examine and plot netCDF glider data | ? | Binary:windows/mac | [video tutorial](https://www.youtube.com/watch?v=BiAvs-geunc&list=PLW7NnkFyzEHMQhMy7SSvenKjg7QvaCFYz)
 
 
 ### Quality Control
@@ -32,6 +34,7 @@ tool link |functionality | last update | Tutorial/documentation
 --- | --- | --- | ---
 [OceanGliders format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) | Standard format for glider data | 2024 | [format specification](https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html)
 [Oxygen SOP](https://github.com/OceanGlidersCommunity/Oxygen_SOP) | Best Practices SOP for oxygen | 2022 | [SOP document](https://oceangliderscommunity.github.io/Oxygen_SOP/README.html)
+[IOOS glider DAC docs](https://ioos.github.io/glider-dac/) | Central collection of IOOS glider resources | 2024 | -
 
 
 ### Tutorials/Demos
@@ -44,6 +47,7 @@ Link to resource |functionality | last update | language
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
+[IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standars like CF| 2024 | python | [web based checker](https://compliance.ioos.us/index.html)
 [python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| 2024 | python | [docs site](https://pyoceans.github.io/python-oceans/)
 
 ### References
