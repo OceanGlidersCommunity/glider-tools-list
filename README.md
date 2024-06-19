@@ -40,6 +40,11 @@ Link to resource |functionality | last update | language
 --- | --- | --- | ---
 [IOOS notebook gallery](https://ioos.github.io/ioos_code_lab/content/code_gallery/gallery.html) |IOOS example notebooks with ocean data inc. gliders| 2024 | python 
 
+### Non glider specific tools
+
+tool link |functionality | last update | language | tutorial/documentation
+--- | --- | --- | --- | ---
+[python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| 2024 | python | [docs site](https://pyoceans.github.io/python-oceans/)
 
 ### References
 
