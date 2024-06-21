@@ -49,7 +49,8 @@ tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
 [IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standars like CF| 2024 | python | [web based checker](https://compliance.ioos.us/index.html)
 [python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| 2024 | python | [docs site](https://pyoceans.github.io/python-oceans/)
+[mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | 2024 | python |[MixSea](https://mixsea.readthedocs.io/en/v0.1.2/)
 
 ### References
 
-This list was inspired by conversations at the Inernational Underwater Gliders Conference in Gothenburg, Sweden, 2024
+This list was inspired by conversations at the International Underwater Gliders Conference in Gothenburg, Sweden, 2024
