@@ -47,9 +47,18 @@ Link to resource |functionality | last update | language
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
-[IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standars like CF| 2024 | python | [web based checker](https://compliance.ioos.us/index.html)
+[IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standards like CF| 2024 | python | [web based checker](https://compliance.ioos.us/index.html)
 [python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| 2024 | python | [docs site](https://pyoceans.github.io/python-oceans/)
 [mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | 2024 | python |[docs site](https://mixsea.readthedocs.io/en/v0.1.2/)
+
+
+### Related lists
+
+Link to resource | description | last update 
+--- | --- | ---
+[Jesse Cusack's ocean data tools](https://github.com/jessecusack/ocean_data_tools) |A list of oceanographic processing packages/modules. Not GUI executables| 2024 
+[Awesome ERDDAP](https://github.com/IrishMarineInstitute/awesome-erddap/) | Curated list of ERDDAP resources and deployments | 2023
+
 
 ### References
 
