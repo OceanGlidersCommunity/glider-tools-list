@@ -50,7 +50,7 @@ tool link |functionality | last update | language | tutorial/documentation
 [IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standards like CF| 2024 | python | [web based checker](https://compliance.ioos.us/index.html)
 [python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| 2024 | python | [docs site](https://pyoceans.github.io/python-oceans/)
 [mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | 2024 | python |[docs site](https://mixsea.readthedocs.io/en/v0.1.2/)
-
+[TEOS-10/GSW](http://www.teos-10.org/software.htm) | Thermodynamic Equation Of Seawater - 2010 | 2010-2024 | many! |[docs site](http://www.teos-10.org/pubs/gsw/html/gsw_contents.html)
 
 ### Related lists
 
