@@ -58,6 +58,7 @@ tool link |functionality | last update | language | tutorial/documentation
 Link to resource | description | last update 
 --- | --- | ---
 [Jesse Cusack's ocean data tools](https://github.com/jessecusack/ocean_data_tools) |A list of oceanographic processing packages/modules. Not GUI executables| 2024 
+[SEA-PY: Python Tools for Oceanographic Analysis](http://pyoceans.github.io/sea-py/) | A big list of Python tools for oceanography | 2024 
 [Awesome ERDDAP](https://github.com/IrishMarineInstitute/awesome-erddap/) | Curated list of ERDDAP resources and deployments | 2023
 
 
