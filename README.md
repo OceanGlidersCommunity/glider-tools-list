@@ -9,7 +9,7 @@ This is a community repository to list tools for processing glider data. The sco
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
 [dbdreader](https://github.com/smerckel/dbdreader) |Extract data from slocum binary files | 2023 | python | [docs site](https://dbdreader.readthedocs.io/en/latest/)
-[pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum (using [dbdreader](https://github.com/smerckel/dbdreader)) and seaexplorer into metadata-rich netcdf timeseries and depth-time grids | 2024 | python | [docs site](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf](https://pyglider.readthedocs.io/en/latest/))
+[pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum (using [dbdreader](https://github.com/smerckel/dbdreader)) and seaexplorer into metadata-rich netcdf timeseries and depth-time grids | 2024 | python | [docs site](https://pyglider.readthedocs.io/en/latest/)
 [SOCIB glider toolbox](https://github.com/socib/glider_toolbox) |Process slocum, seaglider and seaxplorer data | 2018 | matlab | [manual](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf)
 [EGO glider processing](https://www.seanoe.org/data/00343/45402/) |Process slocum, seaglider and seaxplorer data | 2023 | matlab | -
 [GLIDERSCOPE](https://imos.org.au/gliderscope) |Examine and plot netCDF glider data | ? | Binary:windows/mac | [video tutorial](https://www.youtube.com/watch?v=BiAvs-geunc&list=PLW7NnkFyzEHMQhMy7SSvenKjg7QvaCFYz)
