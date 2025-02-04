@@ -52,6 +52,8 @@ tool link |functionality | last update | language | tutorial/documentation
 [mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | 2024 | python |[docs site](https://mixsea.readthedocs.io/en/v0.1.2/)
 [TEOS-10/GSW](http://www.teos-10.org/software.htm) | Thermodynamic Equation Of Seawater - 2010 | 2010-2024 | many! |[docs site](http://www.teos-10.org/pubs/gsw/html/gsw_contents.html)
 [python-ctd](https://github.com/pyoceans/python-ctd) |Read CTD data from CNV, EDF and ASII files| 2024 | python | [repo](https://github.com/pyoceans/python-ctd)
+[seabirdscientific](https://github.com/Sea-BirdScientific/seabirdscientific) | Official Sea-Bird processing | 2025 | python | [repo](https://github.com/pyoceans/python-ctd)
+
 
 ### Related lists
 
