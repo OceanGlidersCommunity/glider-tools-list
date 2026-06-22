@@ -38,6 +38,7 @@ tool link |functionality | last update | Tutorial/documentation
 [Oxygen SOP](https://github.com/OceanGlidersCommunity/Oxygen_SOP) | Best Practices SOP for oxygen | 2022 | [SOP document](https://oceangliderscommunity.github.io/Oxygen_SOP/README.html)
 [IOOS glider DAC docs](https://ioos.github.io/glider-dac/) | Central collection of IOOS glider resources | 2024 | -
 [IOOS compliance OG plugin](https://github.com/ioos/cc-plugin-og) |Compliance checker plugin for OG format| 2026 | -
+[GDAC OG1.0 metadata template](https://github.com/ioos/glider-dac/tree/og1-0-metadata-template) |Modular JSON templates for NetCDF-compliant format | 2026 | [README](https://github.com/ioos/glider-dac/blob/og1-0-metadata-template/README.md)
 
 
 
