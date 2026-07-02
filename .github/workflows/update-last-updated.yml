@@ -1,0 +1,26 @@
+name: Update last update dates
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # monthly, 1st at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/update_last_updated.py --write
+        continue-on-error: true  # a fetch failure for one repo shouldn't block updating the rest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update last update dates"
+          title: "Update last update dates"
+          branch: update-last-updated
+          delete-branch: true
