@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update:
@@ -18,9 +17,12 @@ jobs:
         continue-on-error: true  # a fetch failure for one repo shouldn't block updating the rest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "Update last update dates"
-          title: "Update last update dates"
-          branch: update-last-updated
-          delete-branch: true
+      - run: |
+          if git diff --quiet; then
+            echo "No date changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update last update dates"
+          git push
