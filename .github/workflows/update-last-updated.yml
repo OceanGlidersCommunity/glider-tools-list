@@ -1,0 +1,28 @@
+name: Update last update dates
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # monthly, 1st at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/update_last_updated.py --write
+        continue-on-error: true  # a fetch failure for one repo shouldn't block updating the rest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          if git diff --quiet; then
+            echo "No date changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update last update dates"
+          git push
