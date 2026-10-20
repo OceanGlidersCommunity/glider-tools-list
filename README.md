@@ -31,6 +31,7 @@ tool link |functionality | last update | language | tutorial/documentation
 [GliderTools](https://github.com/GliderToolsCommunity/GliderTools) | Quality control and plot generic glider data | 2024 |python | [demo notebook](https://github.com/GliderToolsCommunity/GliderTools/blob/master/notebooks/Demo_GT.ipynb)
 [Glider dashboard](https://github.com/voto-ocean-knowledge/glider_dashboard) | Interactive exploratory tool for glider data | 2024 | python | [example deployment](https://observations.voiceoftheocean.org/dashboard)
 [glider-playground](https://github.com/Orlando-PB/glider-playground) | Fast, web based tool for exploring OG1 formatted glider data | 2026 | web | [demo](https://glider-playground.co.uk/)
+[glidertest](https://github.com/OceanGlidersCommunity/glidertest) | Generate html reports from OG1 glider files | October 2026 | python | [documentation](https://oceangliderscommunity.github.io/glidertest/)
 
 ### Data standards and guides
 
