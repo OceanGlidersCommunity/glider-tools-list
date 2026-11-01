@@ -8,40 +8,40 @@ This is a community repository to list tools for processing glider data. The sco
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
-[dbdreader](https://github.com/smerckel/dbdreader) |Extract data from slocum binary files | July 2026 | python | [docs site](https://dbdreader.readthedocs.io/en/latest/)
-[Seaglider Basestation Software](https://github.com/iop-apl-uw/basestation3) | Process Seaglider data to netCDF| July 2026 | python | [docs site](https://iop.apl.washington.edu/seaglider.php)
+[dbdreader](https://github.com/smerckel/dbdreader) |Extract data from slocum binary files | August 2026 | python | [docs site](https://dbdreader.readthedocs.io/en/latest/)
+[Seaglider Basestation Software](https://github.com/iop-apl-uw/basestation3) | Process Seaglider data to netCDF| October 2026 | python | [docs site](https://iop.apl.washington.edu/seaglider.php)
 [GEOMAR glider toolbox](https://git.geomar.de/open-source/geomar_glider_toolbox/-/tree/main/glider) | Process slocum data| 2024 | matlab | [pdf documentation](https://git.geomar.de/open-source/geomar_glider_toolbox/-/blob/main/glider/glider_toolbox/glider_processing.pdf)
-[pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum (using [dbdreader](https://github.com/smerckel/dbdreader)) and seaexplorer into metadata-rich netcdf timeseries and depth-time grids | June 2026 | python | [docs site](https://pyglider.readthedocs.io/en/latest/)
+[pyglider](https://github.com/c-proof/pyglider) |Convert datafiles from slocum (using [dbdreader](https://github.com/smerckel/dbdreader)) and seaexplorer into metadata-rich netcdf timeseries and depth-time grids | July 2026 | python | [docs site](https://pyglider.readthedocs.io/en/latest/)
 [SOCIB glider toolbox](https://github.com/socib/glider_toolbox) |Process slocum, seaglider and seaxplorer data | January 2022 | matlab | [manual](https://github.com/socib/glider_toolbox/blob/master/documentation/Manual_v1.3.1.pdf)
 [EGO glider processing](https://www.seanoe.org/data/00343/45402/) |Process slocum, seaglider and seaxplorer data | 2023 | matlab | -
 [GLIDERSCOPE](https://imos.org.au/gliderscope) |Examine and plot netCDF glider data | ? | Binary:windows/mac | [video tutorial](https://www.youtube.com/watch?v=BiAvs-geunc&list=PLW7NnkFyzEHMQhMy7SSvenKjg7QvaCFYz)
-[pelagos-py](https://github.com/NOC-OBG-Autonomy/pelagos-py) | Modular, YAML-configured pipeline framework for processing, QC and visualising oceanographic data | 2026 | python | [docs site](https://noc-obg-autonomy.github.io/pelagos-py/)
+[pelagos-py](https://github.com/NOC-OBG-Autonomy/pelagos-py) | Modular, YAML-configured pipeline framework for processing, QC and visualising oceanographic data | October 2026 | python | [docs site](https://noc-obg-autonomy.github.io/pelagos-py/)
 
 
 ### Quality Control
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
-[IOOS qc](https://github.com/ioos/ioos_qc) |Apply IOOS QARTOD and other qc routines| June 2026 | python | [docs site](https://ioos.github.io/ioos_qc/)
+[IOOS qc](https://github.com/ioos/ioos_qc) |Apply IOOS QARTOD and other qc routines| October 2026 | python | [docs site](https://ioos.github.io/ioos_qc/)
 
 ### Postprocessing/visualisation
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
-[GliderTools](https://github.com/GliderToolsCommunity/GliderTools) | Quality control and plot generic glider data | 2024 |python | [demo notebook](https://github.com/GliderToolsCommunity/GliderTools/blob/master/notebooks/Demo_GT.ipynb)
-[Glider dashboard](https://github.com/voto-ocean-knowledge/glider_dashboard) | Interactive exploratory tool for glider data | 2024 | python | [example deployment](https://observations.voiceoftheocean.org/dashboard)
-[glider-playground](https://github.com/Orlando-PB/glider-playground) | Fast, web based tool for exploring OG1 formatted glider data | 2026 | web | [demo](https://glider-playground.co.uk/)
+[GliderTools](https://github.com/GliderToolsCommunity/GliderTools) | Quality control and plot generic glider data | September 2025 |python | [demo notebook](https://github.com/GliderToolsCommunity/GliderTools/blob/master/notebooks/Demo_GT.ipynb)
+[Glider dashboard](https://github.com/voto-ocean-knowledge/glider_dashboard) | Interactive exploratory tool for glider data | October 2026 | python | [example deployment](https://observations.voiceoftheocean.org/dashboard)
+[glider-playground](https://github.com/Orlando-PB/glider-playground) | Fast, web based tool for exploring OG1 formatted glider data | October 2026 | web | [demo](https://glider-playground.co.uk/)
 [glidertest](https://github.com/OceanGlidersCommunity/glidertest) | Generate html reports from OG1 glider files | October 2026 | python | [documentation](https://oceangliderscommunity.github.io/glidertest/)
 
 ### Data standards and guides
 
 tool link |functionality | last update | Tutorial/documentation
 --- | --- | --- | ---
-[OceanGliders format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) | Standard format for glider data | May 2026 | [format specification](https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html)
+[OceanGliders format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) | Standard format for glider data | October 2026 | [format specification](https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html)
 [Oxygen SOP](https://github.com/OceanGlidersCommunity/Oxygen_SOP) | Best Practices SOP for oxygen | January 2023 | [SOP document](https://oceangliderscommunity.github.io/Oxygen_SOP/README.html)
 [IOOS glider DAC docs](https://ioos.github.io/glider-dac/) | Central collection of IOOS glider resources | 2024 | -
-[IOOS compliance OG plugin](https://github.com/ioos/cc-plugin-og) |Compliance checker plugin for OG format| May 2026 | -
-[GDAC OG1.0 metadata template](https://github.com/ioos/glider-dac/tree/og1-0-metadata-template) |Modular JSON templates for NetCDF-compliant format | June 2026 | [README](https://github.com/ioos/glider-dac/blob/og1-0-metadata-template/README.md)
+[IOOS compliance OG plugin](https://github.com/ioos/cc-plugin-og) |Compliance checker plugin for OG format| October 2026 | -
+[GDAC OG1.0 metadata template](https://github.com/ioos/glider-dac/tree/og1-0-metadata-template) |Modular JSON templates for NetCDF-compliant format | October 2026 | [README](https://github.com/ioos/glider-dac/blob/og1-0-metadata-template/README.md)
 
 
 
@@ -55,12 +55,12 @@ Link to resource |functionality | last update | language
 
 tool link |functionality | last update | language | tutorial/documentation
 --- | --- | --- | --- | ---
-[IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standards like CF| July 2026 | python | [web based checker](https://compliance.ioos.us/index.html)
-[python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| June 2026 | python | [docs site](https://pyoceans.github.io/python-oceans/)
-[mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | February 2026 | python |[docs site](https://mixsea.readthedocs.io/en/v0.1.2/)
+[IOOS compliance checker](https://github.com/ioos/compliance-checker) |Check that files comply with standards like CF| October 2026 | python | [web based checker](https://compliance.ioos.us/index.html)
+[python oceans](https://github.com/pyoceans/python-oceans) |Misc. helper tools for oceanography| October 2026 | python | [docs site](https://pyoceans.github.io/python-oceans/)
+[mixsea](https://github.com/modscripps/mixsea) | physical oceanographic tools for turbulence | October 2026 | python |[docs site](https://mixsea.readthedocs.io/en/v0.1.2/)
 [TEOS-10/GSW](http://www.teos-10.org/software.htm) | Thermodynamic Equation Of Seawater - 2010 | 2010-2024 | many! |[docs site](http://www.teos-10.org/pubs/gsw/html/gsw_contents.html)
-[python-ctd](https://github.com/pyoceans/python-ctd) |Read CTD data from CNV, EDF and ASII files| June 2026 | python | [repo](https://github.com/pyoceans/python-ctd)
-[seabirdscientific](https://github.com/Sea-BirdScientific/seabirdscientific) | Official Sea-Bird processing | April 2026 | python | [repo](https://github.com/pyoceans/python-ctd)
+[python-ctd](https://github.com/pyoceans/python-ctd) |Read CTD data from CNV, EDF and ASII files| October 2026 | python | [repo](https://github.com/pyoceans/python-ctd)
+[seabirdscientific](https://github.com/Sea-BirdScientific/seabirdscientific) | Official Sea-Bird processing | October 2026 | python | [repo](https://github.com/pyoceans/python-ctd)
 
 
 ### Related lists
@@ -70,8 +70,7 @@ Link to resource | description | last update
 [Jesse Cusack's ocean data tools](https://github.com/jessecusack/ocean_data_tools) |A list of oceanographic processing packages/modules. Not GUI executables| October 2025 
 [IMOS glider tools](https://anfog.ecm.uwa.edu.au/) |List of glider related tools and tutorials | 2024 
 [SEA-PY: Python Tools for Oceanographic Analysis](http://pyoceans.github.io/sea-py/) | A big list of Python tools for oceanography | 2024 
-[Awesome ERDDAP](https://github.com/IrishMarineInstitute/awesome-erddap/) | Curated list of ERDDAP resources and deployments | June 2026
-
+[Awesome ERDDAP](https://github.com/IrishMarineInstitute/awesome-erddap/) | Curated list of ERDDAP resources and deployments | October 2026 
 ### References
 
 This list was inspired by conversations at the International Underwater Gliders Conference in Gothenburg, Sweden, 2024
